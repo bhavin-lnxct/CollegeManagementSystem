@@ -39,12 +39,11 @@ namespace CollegeManagementSystem
             int a = da.Fill(dt);
             if (a > 0)
             {
-                MessageBox.Show("Logged in");
+                this.Hide();
+                new Form5().Show();
             }
             else
-            {
-                MessageBox.Show("Something went wrong");
-            }
+                MessageBox.Show("Incorrect username or password","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -62,6 +61,16 @@ namespace CollegeManagementSystem
         {
             this.Hide();
             new Form4().Show();
+        }
+
+        int click = 0;
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            click++;
+            if (click % 2 == 1)
+                pictureBox1.Image = CollegeManagementSystem.Properties.Resources.off_visibility;
+            else if (click % 2 == 0)
+                pictureBox1.Image = CollegeManagementSystem.Properties.Resources.visibility;
         }
     }
 }

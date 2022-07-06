@@ -38,8 +38,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -91,10 +93,12 @@
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox2.Location = new System.Drawing.Point(12, 165);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(259, 20);
+            this.textBox2.PasswordChar = '•';
+            this.textBox2.Size = new System.Drawing.Size(259, 22);
             this.textBox2.TabIndex = 2;
             // 
             // label3
@@ -159,6 +163,17 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Don\'t have an account?";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CollegeManagementSystem.Properties.Resources.visibility;
+            this.pictureBox1.Location = new System.Drawing.Point(250, 166);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::CollegeManagementSystem.Properties.Resources._4957136;
@@ -174,6 +189,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 292);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
@@ -192,6 +208,7 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +227,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
 
     }

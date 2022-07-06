@@ -148,6 +148,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form4_FormClosing);
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

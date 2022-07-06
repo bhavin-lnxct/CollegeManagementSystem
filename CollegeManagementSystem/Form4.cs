@@ -22,7 +22,8 @@ namespace CollegeManagementSystem
         {
             if (keyData == Keys.Escape)
             {
-                Application.Exit();
+                this.Hide();
+                new Form2().Show();
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
@@ -57,6 +58,11 @@ namespace CollegeManagementSystem
         private void Form4_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
