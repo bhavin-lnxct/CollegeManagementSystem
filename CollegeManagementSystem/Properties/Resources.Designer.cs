@@ -113,6 +113,26 @@ namespace CollegeManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NicePng_click_png_972497 {
+            get {
+                object obj = ResourceManager.GetObject("NicePng_click-png_972497", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NicePng_click_png_9724971 {
+            get {
+                object obj = ResourceManager.GetObject("NicePng_click-png_9724971", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap off_visibility {
             get {
                 object obj = ResourceManager.GetObject("off-visibility", resourceCulture);

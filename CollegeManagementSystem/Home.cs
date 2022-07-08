@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace CollegeManagementSystem
 {
-    public partial class Form5 : Form
+    public partial class Home_Form : Form
     {
-        public Form5()
+        public Home_Form()
         {
             InitializeComponent();
         }

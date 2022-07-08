@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace CollegeManagementSystem
 {
-    public partial class Form3 : Form
+    public partial class Registration_Form : Form
     {
-        public Form3()
+        public Registration_Form()
         {
             InitializeComponent();
         }
@@ -35,7 +35,7 @@ namespace CollegeManagementSystem
         private void label6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form2().Show();
+            new Login_Form().Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

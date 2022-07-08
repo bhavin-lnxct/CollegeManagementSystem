@@ -18,13 +18,13 @@ E:\bg\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManag
 E:\bg\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Form3.resources
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\bin\Debug\CollegeManagementSystem.exe
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\bin\Debug\CollegeManagementSystem.pdb
-E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Form2.resources
-E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Form3.resources
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Properties.Resources.resources
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.csproj.GenerateResource.Cache
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.exe
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.pdb
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.csprojResolveAssemblyReference.cache
-E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Form4.resources
 E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Loading_Form.resources
-E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Form5.resources
+E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Login_Form.resources
+E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Registration_Form.resources
+E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.ResetPassword_Form.resources
+E:\bhavin\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Home_Form.resources

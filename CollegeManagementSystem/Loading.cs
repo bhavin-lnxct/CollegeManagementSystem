@@ -27,7 +27,7 @@ namespace CollegeManagementSystem
             {
                 timer1.Stop();
                 this.Hide();
-                new Form2().Show();
+                new Login_Form().Show();
             }
 
             label4.Text = dot;

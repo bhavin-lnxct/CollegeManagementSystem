@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace CollegeManagementSystem
 {
-    public partial class Form4 : Form
+    public partial class ResetPassword_Form : Form
     {
-        public Form4()
+        public ResetPassword_Form()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace CollegeManagementSystem
             if (keyData == Keys.Escape)
             {
                 this.Hide();
-                new Form2().Show();
+                new Login_Form().Show();
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
@@ -42,7 +42,7 @@ namespace CollegeManagementSystem
                 {
                     MessageBox.Show("Successfully reset your password.", "Information", MessageBoxButtons.OK);
                     this.Hide();
-                    new Form2().Show();
+                    new Login_Form().Show();
                 }
                 else
                 {

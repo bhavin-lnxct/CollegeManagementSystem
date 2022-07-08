@@ -11,16 +11,16 @@ using System.Data.SqlClient;
 
 namespace CollegeManagementSystem
 {
-    public partial class Form2 : Form
+    public partial class Login_Form : Form
     {
-        public Form2()
+        public Login_Form()
         {
             InitializeComponent();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
@@ -40,7 +40,7 @@ namespace CollegeManagementSystem
             if (a > 0)
             {
                 this.Hide();
-                new Form5().Show();
+                new Home_Form().Show();
             }
             else
                 MessageBox.Show("Incorrect username or password","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
@@ -49,7 +49,7 @@ namespace CollegeManagementSystem
         private void label6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form3().Show();
+            new Registration_Form().Show();
         }
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
@@ -60,17 +60,23 @@ namespace CollegeManagementSystem
         private void label5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form4().Show();
+            new ResetPassword_Form().Show();
         }
 
         int click = 0;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            click++;
-            if (click % 2 == 1)
+            if (click % 2 == 0)
+            {
                 pictureBox1.Image = CollegeManagementSystem.Properties.Resources.off_visibility;
-            else if (click % 2 == 0)
+                textBox2.UseSystemPasswordChar = false;
+            }
+            else if (click % 2 == 1)
+            {
                 pictureBox1.Image = CollegeManagementSystem.Properties.Resources.visibility;
+                textBox2.UseSystemPasswordChar = true;
+            }
+            click++;
         }
     }
 }
