@@ -37,7 +37,7 @@ namespace CollegeManagementSystem
                 dot += ".";
         }
 
-        protected override bool  ProcessCmdKey(ref Message msg, Keys keyData)
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Escape)
             {

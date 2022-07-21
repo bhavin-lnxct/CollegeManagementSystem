@@ -83,6 +83,26 @@ namespace CollegeManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _61nKTBvX5GL1 {
+            get {
+                object obj = ResourceManager.GetObject("61nKTBvX5GL1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coollogo_com_6191893 {
+            get {
+                object obj = ResourceManager.GetObject("coollogo_com-6191893", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Feb_Business_9 {
             get {
                 object obj = ResourceManager.GetObject("Feb-Business_9", resourceCulture);
