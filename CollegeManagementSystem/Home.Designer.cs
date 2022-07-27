@@ -100,6 +100,7 @@
             this.label8.Size = new System.Drawing.Size(85, 19);
             this.label8.TabIndex = 6;
             this.label8.Text = "DashBoard";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -112,6 +113,7 @@
             this.label7.Size = new System.Drawing.Size(56, 19);
             this.label7.TabIndex = 5;
             this.label7.Text = "Logout";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label5
             // 
@@ -200,6 +202,7 @@
             this.rectangleShape2.Location = new System.Drawing.Point(382, 347);
             this.rectangleShape2.Name = "rectangleShape2";
             this.rectangleShape2.Size = new System.Drawing.Size(100, 23);
+            this.rectangleShape2.Click += new System.EventHandler(this.rectangleShape2_Click);
             // 
             // rectangleShape1
             // 
@@ -210,6 +213,7 @@
             this.rectangleShape1.Location = new System.Drawing.Point(205, 346);
             this.rectangleShape1.Name = "rectangleShape1";
             this.rectangleShape1.Size = new System.Drawing.Size(89, 23);
+            this.rectangleShape1.Click += new System.EventHandler(this.rectangleShape1_Click);
             // 
             // ovalShape5
             // 

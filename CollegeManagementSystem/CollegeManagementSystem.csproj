@@ -63,6 +63,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\Dashboard_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Dashboard_Component.Designer.cs">
+      <DependentUpon>Dashboard_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Department_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Department_Component.Designer.cs">
+      <DependentUpon>Department_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Fees_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Fees_Component.Designer.cs">
+      <DependentUpon>Fees_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Logout_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Logout_Component.Designer.cs">
+      <DependentUpon>Logout_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Students_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Students_Component.Designer.cs">
+      <DependentUpon>Students_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Teachers_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Teachers_Component.Designer.cs">
+      <DependentUpon>Teachers_Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Users_Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Users_Component.Designer.cs">
+      <DependentUpon>Users_Component.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conn.cs" />
     <Compile Include="Loading.cs">
       <SubType>Form</SubType>
