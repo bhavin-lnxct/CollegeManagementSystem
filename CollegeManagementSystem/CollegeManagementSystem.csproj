@@ -138,6 +138,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Components\Dashboard_Component.resx">
+      <DependentUpon>Dashboard_Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Department_Component.resx">
+      <DependentUpon>Department_Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Fees_Component.resx">
+      <DependentUpon>Fees_Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Students_Component.resx">
+      <DependentUpon>Students_Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Teachers_Component.resx">
+      <DependentUpon>Teachers_Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Users_Component.resx">
+      <DependentUpon>Users_Component.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
