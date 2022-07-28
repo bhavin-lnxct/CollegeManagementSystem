@@ -40,16 +40,16 @@ namespace CollegeManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text == textBox3.Text)
+            if (txtbox_password.Text == txtbox_confirm_password.Text)
             {
-                SqlDataAdapter das = new SqlDataAdapter("select email from Login where email='" + textBox1.Text + "'", Conn.cn);
+                SqlDataAdapter das = new SqlDataAdapter("select email from Login where email='" + txtbox_email.Text + "'", Conn.cn);
                 DataTable dts = new DataTable();
                 int a = das.Fill(dts);
                 if(a > 0)
                     MessageBox.Show("User already exist");
                 else
                 {
-                    SqlDataAdapter dai = new SqlDataAdapter("insert into login (email, password) values ('" + textBox1.Text + "','" + textBox2.Text + "')", Conn.cn);
+                    SqlDataAdapter dai = new SqlDataAdapter("insert into login (email, password) values ('" + txtbox_email.Text + "','" + txtbox_password.Text + "')", Conn.cn);
                     DataTable dti = new DataTable();
                     int b = dai.Fill(dti);
                     if (b == 0)

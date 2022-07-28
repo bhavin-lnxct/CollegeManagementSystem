@@ -34,7 +34,7 @@ namespace CollegeManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter da = new SqlDataAdapter("select * from login where email='" + textBox1.Text + "' and password='" + textBox2.Text + "'", Conn.cn);
+            SqlDataAdapter da = new SqlDataAdapter("select * from login where email='" + txtbox_email.Text + "' and password='" + txtbox_password.Text + "'", Conn.cn);
             DataTable dt = new DataTable();
             int a = da.Fill(dt);
             if (a > 0)
@@ -68,13 +68,13 @@ namespace CollegeManagementSystem
         {
             if (click % 2 == 0)
             {
-                pictureBox1.Image = CollegeManagementSystem.Properties.Resources.off_visibility;
-                textBox2.UseSystemPasswordChar = false;
+                show_hide_password.Image = CollegeManagementSystem.Properties.Resources.off_visibility;
+                txtbox_password.UseSystemPasswordChar = false;
             }
             else if (click % 2 == 1)
             {
-                pictureBox1.Image = CollegeManagementSystem.Properties.Resources.visibility;
-                textBox2.UseSystemPasswordChar = true;
+                show_hide_password.Image = CollegeManagementSystem.Properties.Resources.visibility;
+                txtbox_password.UseSystemPasswordChar = true;
             }
             click++;
         }

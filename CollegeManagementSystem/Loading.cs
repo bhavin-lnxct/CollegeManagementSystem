@@ -21,16 +21,16 @@ namespace CollegeManagementSystem
         private void timer1_Tick(object sender, EventArgs e)
         {
             startpos += 1;
-            progressBar1.Value = startpos;
+            progressbar.Value = startpos;
 
-            if (progressBar1.Value == 100)
+            if (progressbar.Value == 100)
             {
                 timer1.Stop();
                 this.Hide();
                 new Login_Form().Show();
             }
 
-            label4.Text = dot;
+            lbl_dots.Text = dot;
             if (startpos % 3 == 0)
                 dot = ".";
             else

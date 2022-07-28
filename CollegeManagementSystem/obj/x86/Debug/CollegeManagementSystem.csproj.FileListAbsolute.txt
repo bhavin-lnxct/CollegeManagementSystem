@@ -52,3 +52,9 @@ C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\Colle
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Home_Form.resources
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Properties.Resources.resources
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.csproj.GenerateResource.Cache
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Dashboard_Component.resources
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Department_Component.resources
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Fees_Component.resources
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Students_Component.resources
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Teachers_Component.resources
+C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Components.Users_Component.resources

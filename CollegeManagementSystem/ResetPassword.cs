@@ -30,12 +30,12 @@ namespace CollegeManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter sas = new SqlDataAdapter("select * from login where email='" + textBox1.Text + "'", Conn.cn);
+            SqlDataAdapter sas = new SqlDataAdapter("select * from login where email='" + txtbox_email.Text + "'", Conn.cn);
             DataTable dts = new DataTable();
             int a = sas.Fill(dts);
             if (a > 0)
             {
-                SqlDataAdapter sau = new SqlDataAdapter("update login set password='" + textBox2.Text + "' where email='" + textBox1.Text + "'", Conn.cn);
+                SqlDataAdapter sau = new SqlDataAdapter("update login set password='" + txtbox_password.Text + "' where email='" + txtbox_email.Text + "'", Conn.cn);
                 DataTable dtu = new DataTable();
                 int b = sau.Fill(dtu);
                 if (b == 0)

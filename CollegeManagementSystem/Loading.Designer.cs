@@ -29,88 +29,88 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_heading = new System.Windows.Forms.Label();
+            this.lbl_version = new System.Windows.Forms.Label();
+            this.progressbar = new System.Windows.Forms.ProgressBar();
+            this.lbl_loading = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_dots = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_heading
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_heading.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(83, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "College Management System";
+            this.lbl_heading.AutoSize = true;
+            this.lbl_heading.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_heading.ForeColor = System.Drawing.Color.White;
+            this.lbl_heading.Location = new System.Drawing.Point(83, 19);
+            this.lbl_heading.Name = "lbl_heading";
+            this.lbl_heading.Size = new System.Drawing.Size(329, 29);
+            this.lbl_heading.TabIndex = 0;
+            this.lbl_heading.Text = "College Management System";
             // 
-            // label2
+            // lbl_version
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_version.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(323, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Version 1.0";
+            this.lbl_version.AutoSize = true;
+            this.lbl_version.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_version.ForeColor = System.Drawing.Color.White;
+            this.lbl_version.Location = new System.Drawing.Point(323, 48);
+            this.lbl_version.Name = "lbl_version";
+            this.lbl_version.Size = new System.Drawing.Size(89, 20);
+            this.lbl_version.TabIndex = 1;
+            this.lbl_version.Text = "Version 1.0";
             // 
-            // progressBar1
+            // progressbar
             // 
-            this.progressBar1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.progressBar1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.progressBar1.ForeColor = System.Drawing.Color.GhostWhite;
-            this.progressBar1.Location = new System.Drawing.Point(0, 210);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(0);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(500, 12);
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressBar1.TabIndex = 2;
-            this.progressBar1.UseWaitCursor = true;
+            this.progressbar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.progressbar.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.progressbar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressbar.ForeColor = System.Drawing.Color.GhostWhite;
+            this.progressbar.Location = new System.Drawing.Point(0, 210);
+            this.progressbar.Margin = new System.Windows.Forms.Padding(0);
+            this.progressbar.Name = "progressbar";
+            this.progressbar.Size = new System.Drawing.Size(500, 12);
+            this.progressbar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressbar.TabIndex = 2;
+            this.progressbar.UseWaitCursor = true;
             // 
-            // label3
+            // lbl_loading
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_loading.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(188, 168);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 24);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Loading";
+            this.lbl_loading.AutoSize = true;
+            this.lbl_loading.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_loading.ForeColor = System.Drawing.Color.White;
+            this.lbl_loading.Location = new System.Drawing.Point(188, 168);
+            this.lbl_loading.Name = "lbl_loading";
+            this.lbl_loading.Size = new System.Drawing.Size(78, 24);
+            this.lbl_loading.TabIndex = 3;
+            this.lbl_loading.Text = "Loading";
             // 
             // timer1
             // 
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label4
+            // lbl_dots
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_dots.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(263, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 24);
-            this.label4.TabIndex = 4;
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_dots.AutoSize = true;
+            this.lbl_dots.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dots.ForeColor = System.Drawing.Color.White;
+            this.lbl_dots.Location = new System.Drawing.Point(263, 168);
+            this.lbl_dots.Name = "lbl_dots";
+            this.lbl_dots.Size = new System.Drawing.Size(0, 24);
+            this.lbl_dots.TabIndex = 4;
+            this.lbl_dots.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Loading_Form
             // 
@@ -118,11 +118,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(500, 222);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_dots);
+            this.Controls.Add(this.lbl_loading);
+            this.Controls.Add(this.progressbar);
+            this.Controls.Add(this.lbl_version);
+            this.Controls.Add(this.lbl_heading);
             this.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loading_Form";
@@ -136,12 +136,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_heading;
+        private System.Windows.Forms.Label lbl_version;
+        private System.Windows.Forms.ProgressBar progressbar;
+        private System.Windows.Forms.Label lbl_loading;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_dots;
     }
 }
 
