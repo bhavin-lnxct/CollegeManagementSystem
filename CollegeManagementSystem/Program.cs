@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using CollegeManagementSystem.Components;
 
 namespace CollegeManagementSystem
 {
@@ -15,7 +16,7 @@ namespace CollegeManagementSystem
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Loading_Form());
+            Application.Run(new Students_Component());
         }
     }
 }

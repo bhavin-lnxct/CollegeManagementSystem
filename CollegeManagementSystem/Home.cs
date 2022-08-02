@@ -22,6 +22,15 @@ namespace CollegeManagementSystem
             
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                Application.Exit();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void ovalShape1_Click(object sender, EventArgs e)
         {
             this.Hide();
