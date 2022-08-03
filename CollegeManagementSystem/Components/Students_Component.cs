@@ -18,7 +18,7 @@ namespace CollegeManagementSystem.Components
 
         private void Students_Component_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("HELOO");
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
@@ -29,14 +29,6 @@ namespace CollegeManagementSystem.Components
                 new Home_Form().Show();
             }
             return base.ProcessCmdKey(ref msg, keyData);
-        }
-
-        private void txtbox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                
-            }
         }
     }
 }
