@@ -18,7 +18,7 @@ namespace CollegeManagementSystem.Components
 
         private void Students_Component_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("HELOO");
+            //MessageBox.Show("HELOO");
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
