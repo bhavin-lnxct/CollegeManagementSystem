@@ -68,7 +68,7 @@
             this.lbl_heading.AutoSize = true;
             this.lbl_heading.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_heading.ForeColor = System.Drawing.Color.White;
-            this.lbl_heading.Location = new System.Drawing.Point(159, 25);
+            this.lbl_heading.Location = new System.Drawing.Point(253, 21);
             this.lbl_heading.Name = "lbl_heading";
             this.lbl_heading.Size = new System.Drawing.Size(348, 31);
             this.lbl_heading.TabIndex = 1;
@@ -90,7 +90,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(276, 57);
+            this.label1.Location = new System.Drawing.Point(370, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 31);
             this.label1.TabIndex = 2;
@@ -202,7 +202,7 @@
             this.dobPicker.Name = "dobPicker";
             this.dobPicker.Size = new System.Drawing.Size(195, 20);
             this.dobPicker.TabIndex = 5;
-            this.dobPicker.Value = new System.DateTime(2022, 8, 22, 8, 17, 19, 0);
+            this.dobPicker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
             // 
             // label4
             // 
@@ -278,11 +278,15 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(295, 156);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(557, 299);
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(557, 298);
             this.dataGridView1.TabIndex = 20;
             // 
             // btn_add
@@ -306,7 +310,7 @@
             this.btn_delete,
             this.btn_edit,
             this.btn_add});
-            this.shapeContainer1.Size = new System.Drawing.Size(864, 474);
+            this.shapeContainer1.Size = new System.Drawing.Size(864, 467);
             this.shapeContainer1.TabIndex = 21;
             this.shapeContainer1.TabStop = false;
             // 
@@ -422,7 +426,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 474);
+            this.ClientSize = new System.Drawing.Size(864, 467);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
