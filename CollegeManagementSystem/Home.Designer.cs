@@ -174,7 +174,7 @@
             this.lbl_students.Size = new System.Drawing.Size(87, 24);
             this.lbl_students.TabIndex = 1;
             this.lbl_students.Text = "Students";
-            this.lbl_students.Click += new System.EventHandler(this.label2_Click);
+            this.lbl_students.Click += new System.EventHandler(this.lbl_students_Click);
             // 
             // shapeContainer1
             // 
@@ -202,7 +202,7 @@
             this.btn_dashboard.Location = new System.Drawing.Point(382, 347);
             this.btn_dashboard.Name = "btn_dashboard";
             this.btn_dashboard.Size = new System.Drawing.Size(100, 23);
-            this.btn_dashboard.Click += new System.EventHandler(this.rectangleShape2_Click);
+            this.btn_dashboard.Click += new System.EventHandler(this.btn_dashboard_Click);
             // 
             // btn_logout
             // 
@@ -213,7 +213,7 @@
             this.btn_logout.Location = new System.Drawing.Point(205, 346);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(89, 23);
-            this.btn_logout.Click += new System.EventHandler(this.rectangleShape1_Click);
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
             // 
             // btn_fees
             // 
@@ -244,7 +244,7 @@
             this.btn_students.Location = new System.Drawing.Point(76, 29);
             this.btn_students.Name = "btn_students";
             this.btn_students.Size = new System.Drawing.Size(122, 122);
-            this.btn_students.Click += new System.EventHandler(this.ovalShape1_Click);
+            this.btn_students.Click += new System.EventHandler(this.btn_students_Click);
             // 
             // btn_teachers
             // 

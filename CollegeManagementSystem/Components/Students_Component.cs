@@ -25,15 +25,55 @@ namespace CollegeManagementSystem.Components
         {
             if (keyData == Keys.Escape)
             {
-                this.Hide();
-                new Home_Form().Show();
+                Application.Exit();
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
-        private void rectangleShape1_Click(object sender, EventArgs e)
+        private void btn_add_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void lbl_add_Click(object sender, EventArgs e)
+        {
+            btn_add_Click(sender, e);
+        }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_logout_Click(object sender, EventArgs e)
+        {
+            btn_edit_Click(sender, e);
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_delete_Click(object sender, EventArgs e)
+        {
+            btn_delete_Click(sender, e);
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Home_Form().Show();
+        }
+
+        private void lbl_back_Click(object sender, EventArgs e)
+        {
+            btn_back_Click(sender, e);
+        }
+
+        private void arrow_back_Click(object sender, EventArgs e)
+        {
+            btn_back_Click(sender, e);
         }
     }
 }
