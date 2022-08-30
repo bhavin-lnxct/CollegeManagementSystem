@@ -53,7 +53,7 @@
             this.btn_delete = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_edit = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.lbl_add = new System.Windows.Forms.Label();
-            this.lbl_logout = new System.Windows.Forms.Label();
+            this.lbl_edit = new System.Windows.Forms.Label();
             this.lbl_delete = new System.Windows.Forms.Label();
             this.lbl_back = new System.Windows.Forms.Label();
             this.arrow_back = new System.Windows.Forms.PictureBox();
@@ -358,19 +358,20 @@
             this.lbl_add.Size = new System.Drawing.Size(36, 19);
             this.lbl_add.TabIndex = 9;
             this.lbl_add.Text = "Add";
+            this.lbl_add.Click += new System.EventHandler(this.lbl_add_Click);
             // 
-            // lbl_logout
+            // lbl_edit
             // 
-            this.lbl_logout.AutoSize = true;
-            this.lbl_logout.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lbl_logout.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_logout.ForeColor = System.Drawing.Color.White;
-            this.lbl_logout.Location = new System.Drawing.Point(129, 403);
-            this.lbl_logout.Name = "lbl_logout";
-            this.lbl_logout.Size = new System.Drawing.Size(36, 19);
-            this.lbl_logout.TabIndex = 10;
-            this.lbl_logout.Text = "Edit";
-            this.lbl_logout.Click += new System.EventHandler(this.lbl_logout_Click);
+            this.lbl_edit.AutoSize = true;
+            this.lbl_edit.BackColor = System.Drawing.Color.RoyalBlue;
+            this.lbl_edit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_edit.ForeColor = System.Drawing.Color.White;
+            this.lbl_edit.Location = new System.Drawing.Point(129, 403);
+            this.lbl_edit.Name = "lbl_edit";
+            this.lbl_edit.Size = new System.Drawing.Size(36, 19);
+            this.lbl_edit.TabIndex = 10;
+            this.lbl_edit.Text = "Edit";
+            this.lbl_edit.Click += new System.EventHandler(this.lbl_edit_Click);
             // 
             // lbl_delete
             // 
@@ -431,7 +432,7 @@
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
             this.Controls.Add(this.lbl_delete);
-            this.Controls.Add(this.lbl_logout);
+            this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox3);
@@ -491,7 +492,7 @@
         private System.Windows.Forms.Label lbl_add;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_edit;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_delete;
-        private System.Windows.Forms.Label lbl_logout;
+        private System.Windows.Forms.Label lbl_edit;
         private System.Windows.Forms.Label lbl_delete;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_back;
         private System.Windows.Forms.Label lbl_back;

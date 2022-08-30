@@ -15,5 +15,50 @@ namespace CollegeManagementSystem.Components
         {
             InitializeComponent();
         }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_add_Click(object sender, EventArgs e)
+        {
+            btn_add_Click(sender, e);
+        }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_edit_Click(object sender, EventArgs e)
+        {
+            btn_edit_Click(sender, e);
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_delete_Click(object sender, EventArgs e)
+        {
+            btn_delete_Click(sender, e);
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_back_Click(object sender, EventArgs e)
+        {
+            btn_back_Click(sender, e);
+        }
+
+        private void arrow_back_Click(object sender, EventArgs e)
+        {
+            btn_back_Click(sender, e);
+        }
     }
 }

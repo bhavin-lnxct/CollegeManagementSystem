@@ -33,7 +33,7 @@
             this.arrow_back = new System.Windows.Forms.PictureBox();
             this.lbl_back = new System.Windows.Forms.Label();
             this.lbl_delete = new System.Windows.Forms.Label();
-            this.lbl_logout = new System.Windows.Forms.Label();
+            this.lbl_edit = new System.Windows.Forms.Label();
             this.lbl_add = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -121,17 +121,17 @@
             this.lbl_delete.TabIndex = 61;
             this.lbl_delete.Text = "Delete";
             // 
-            // lbl_logout
+            // lbl_edit
             // 
-            this.lbl_logout.AutoSize = true;
-            this.lbl_logout.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lbl_logout.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_logout.ForeColor = System.Drawing.Color.White;
-            this.lbl_logout.Location = new System.Drawing.Point(129, 403);
-            this.lbl_logout.Name = "lbl_logout";
-            this.lbl_logout.Size = new System.Drawing.Size(36, 19);
-            this.lbl_logout.TabIndex = 60;
-            this.lbl_logout.Text = "Edit";
+            this.lbl_edit.AutoSize = true;
+            this.lbl_edit.BackColor = System.Drawing.Color.RoyalBlue;
+            this.lbl_edit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_edit.ForeColor = System.Drawing.Color.White;
+            this.lbl_edit.Location = new System.Drawing.Point(129, 403);
+            this.lbl_edit.Name = "lbl_edit";
+            this.lbl_edit.Size = new System.Drawing.Size(36, 19);
+            this.lbl_edit.TabIndex = 60;
+            this.lbl_edit.Text = "Edit";
             // 
             // lbl_add
             // 
@@ -427,7 +427,7 @@
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
             this.Controls.Add(this.lbl_delete);
-            this.Controls.Add(this.lbl_logout);
+            this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox3);
@@ -467,7 +467,7 @@
         private System.Windows.Forms.PictureBox arrow_back;
         private System.Windows.Forms.Label lbl_back;
         private System.Windows.Forms.Label lbl_delete;
-        private System.Windows.Forms.Label lbl_logout;
+        private System.Windows.Forms.Label lbl_edit;
         private System.Windows.Forms.Label lbl_add;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox3;

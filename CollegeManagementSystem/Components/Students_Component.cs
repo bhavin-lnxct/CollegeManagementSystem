@@ -45,7 +45,7 @@ namespace CollegeManagementSystem.Components
 
         }
 
-        private void lbl_logout_Click(object sender, EventArgs e)
+        private void lbl_edit_Click(object sender, EventArgs e)
         {
             btn_edit_Click(sender, e);
         }

@@ -32,7 +32,7 @@
             this.arrow_back = new System.Windows.Forms.PictureBox();
             this.lbl_back = new System.Windows.Forms.Label();
             this.lbl_delete = new System.Windows.Forms.Label();
-            this.lbl_logout = new System.Windows.Forms.Label();
+            this.lbl_edit = new System.Windows.Forms.Label();
             this.lbl_add = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbl_heading = new System.Windows.Forms.Label();
@@ -85,6 +85,7 @@
             this.arrow_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.arrow_back.TabIndex = 91;
             this.arrow_back.TabStop = false;
+            this.arrow_back.Click += new System.EventHandler(this.arrow_back_Click);
             // 
             // lbl_back
             // 
@@ -97,6 +98,7 @@
             this.lbl_back.Size = new System.Drawing.Size(48, 19);
             this.lbl_back.TabIndex = 85;
             this.lbl_back.Text = " Back";
+            this.lbl_back.Click += new System.EventHandler(this.lbl_back_Click);
             // 
             // lbl_delete
             // 
@@ -109,18 +111,20 @@
             this.lbl_delete.Size = new System.Drawing.Size(54, 19);
             this.lbl_delete.TabIndex = 84;
             this.lbl_delete.Text = "Delete";
+            this.lbl_delete.Click += new System.EventHandler(this.lbl_delete_Click);
             // 
-            // lbl_logout
+            // lbl_edit
             // 
-            this.lbl_logout.AutoSize = true;
-            this.lbl_logout.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lbl_logout.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_logout.ForeColor = System.Drawing.Color.White;
-            this.lbl_logout.Location = new System.Drawing.Point(129, 403);
-            this.lbl_logout.Name = "lbl_logout";
-            this.lbl_logout.Size = new System.Drawing.Size(36, 19);
-            this.lbl_logout.TabIndex = 83;
-            this.lbl_logout.Text = "Edit";
+            this.lbl_edit.AutoSize = true;
+            this.lbl_edit.BackColor = System.Drawing.Color.RoyalBlue;
+            this.lbl_edit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_edit.ForeColor = System.Drawing.Color.White;
+            this.lbl_edit.Location = new System.Drawing.Point(129, 403);
+            this.lbl_edit.Name = "lbl_edit";
+            this.lbl_edit.Size = new System.Drawing.Size(36, 19);
+            this.lbl_edit.TabIndex = 83;
+            this.lbl_edit.Text = "Edit";
+            this.lbl_edit.Click += new System.EventHandler(this.lbl_logout_Click);
             // 
             // lbl_add
             // 
@@ -133,6 +137,7 @@
             this.lbl_add.Size = new System.Drawing.Size(36, 19);
             this.lbl_add.TabIndex = 81;
             this.lbl_add.Text = "Add";
+            this.lbl_add.Click += new System.EventHandler(this.lbl_add_Click);
             // 
             // dataGridView1
             // 
@@ -427,7 +432,7 @@
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
             this.Controls.Add(this.lbl_delete);
-            this.Controls.Add(this.lbl_logout);
+            this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox3);
@@ -466,7 +471,7 @@
         private System.Windows.Forms.PictureBox arrow_back;
         private System.Windows.Forms.Label lbl_back;
         private System.Windows.Forms.Label lbl_delete;
-        private System.Windows.Forms.Label lbl_logout;
+        private System.Windows.Forms.Label lbl_edit;
         private System.Windows.Forms.Label lbl_add;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lbl_heading;
