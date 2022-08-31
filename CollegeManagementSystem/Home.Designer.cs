@@ -100,7 +100,7 @@
             this.lbl_dashboard.Size = new System.Drawing.Size(85, 19);
             this.lbl_dashboard.TabIndex = 6;
             this.lbl_dashboard.Text = "DashBoard";
-            this.lbl_dashboard.Click += new System.EventHandler(this.label8_Click);
+            this.lbl_dashboard.Click += new System.EventHandler(this.lbl_dashboard_Click);
             // 
             // lbl_logout
             // 
@@ -113,7 +113,7 @@
             this.lbl_logout.Size = new System.Drawing.Size(56, 19);
             this.lbl_logout.TabIndex = 5;
             this.lbl_logout.Text = "Logout";
-            this.lbl_logout.Click += new System.EventHandler(this.label7_Click);
+            this.lbl_logout.Click += new System.EventHandler(this.lbl_logout_Click);
             // 
             // lbl_departments
             // 
@@ -126,6 +126,7 @@
             this.lbl_departments.Size = new System.Drawing.Size(117, 24);
             this.lbl_departments.TabIndex = 4;
             this.lbl_departments.Text = "Department";
+            this.lbl_departments.Click += new System.EventHandler(this.lbl_departments_Click);
             // 
             // lbl_fees
             // 
@@ -138,6 +139,7 @@
             this.lbl_fees.Size = new System.Drawing.Size(52, 24);
             this.lbl_fees.TabIndex = 3;
             this.lbl_fees.Text = "Fees";
+            this.lbl_fees.Click += new System.EventHandler(this.lbl_fees_Click);
             // 
             // lbl_users
             // 
@@ -150,6 +152,7 @@
             this.lbl_users.Size = new System.Drawing.Size(59, 24);
             this.lbl_users.TabIndex = 2;
             this.lbl_users.Text = "Users";
+            this.lbl_users.Click += new System.EventHandler(this.lbl_users_Click);
             // 
             // lbl_teachers
             // 
@@ -162,6 +165,7 @@
             this.lbl_teachers.Size = new System.Drawing.Size(89, 24);
             this.lbl_teachers.TabIndex = 2;
             this.lbl_teachers.Text = "Teachers";
+            this.lbl_teachers.Click += new System.EventHandler(this.lbl_teachers_Click);
             // 
             // lbl_students
             // 
@@ -224,6 +228,7 @@
             this.btn_fees.Location = new System.Drawing.Point(479, 203);
             this.btn_fees.Name = "btn_fees";
             this.btn_fees.Size = new System.Drawing.Size(122, 122);
+            this.btn_fees.Click += new System.EventHandler(this.btn_fees_Click);
             // 
             // btn_users
             // 
@@ -234,6 +239,7 @@
             this.btn_users.Location = new System.Drawing.Point(476, 29);
             this.btn_users.Name = "btn_users";
             this.btn_users.Size = new System.Drawing.Size(122, 122);
+            this.btn_users.Click += new System.EventHandler(this.btn_users_Click);
             // 
             // btn_students
             // 
@@ -255,6 +261,7 @@
             this.btn_teachers.Location = new System.Drawing.Point(281, 113);
             this.btn_teachers.Name = "btn_teachers";
             this.btn_teachers.Size = new System.Drawing.Size(122, 122);
+            this.btn_teachers.Click += new System.EventHandler(this.btn_teachers_Click);
             // 
             // btn_departments
             // 
@@ -265,6 +272,7 @@
             this.btn_departments.Location = new System.Drawing.Point(74, 221);
             this.btn_departments.Name = "btn_departments";
             this.btn_departments.Size = new System.Drawing.Size(122, 122);
+            this.btn_departments.Click += new System.EventHandler(this.btn_departments_Click);
             // 
             // Home_Form
             // 

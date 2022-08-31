@@ -96,6 +96,7 @@
             this.arrow_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.arrow_back.TabIndex = 68;
             this.arrow_back.TabStop = false;
+            this.arrow_back.Click += new System.EventHandler(this.arrow_back_Click);
             // 
             // lbl_back
             // 
@@ -108,6 +109,7 @@
             this.lbl_back.Size = new System.Drawing.Size(48, 19);
             this.lbl_back.TabIndex = 62;
             this.lbl_back.Text = " Back";
+            this.lbl_back.Click += new System.EventHandler(this.lbl_back_Click);
             // 
             // lbl_delete
             // 
@@ -120,6 +122,7 @@
             this.lbl_delete.Size = new System.Drawing.Size(54, 19);
             this.lbl_delete.TabIndex = 61;
             this.lbl_delete.Text = "Delete";
+            this.lbl_delete.Click += new System.EventHandler(this.lbl_delete_Click);
             // 
             // lbl_edit
             // 
@@ -132,6 +135,7 @@
             this.lbl_edit.Size = new System.Drawing.Size(36, 19);
             this.lbl_edit.TabIndex = 60;
             this.lbl_edit.Text = "Edit";
+            this.lbl_edit.Click += new System.EventHandler(this.lbl_edit_Click);
             // 
             // lbl_add
             // 
@@ -144,6 +148,7 @@
             this.lbl_add.Size = new System.Drawing.Size(36, 19);
             this.lbl_add.TabIndex = 58;
             this.lbl_add.Text = "Add";
+            this.lbl_add.Click += new System.EventHandler(this.lbl_add_Click);
             // 
             // dataGridView1
             // 
@@ -152,7 +157,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(295, 156);
+            this.dataGridView1.Location = new System.Drawing.Point(304, 158);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(557, 298);
@@ -399,9 +404,9 @@
             this.btn_back.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
             this.btn_back.BorderColor = System.Drawing.Color.Transparent;
             this.btn_back.FillColor = System.Drawing.Color.RoyalBlue;
-            this.btn_back.Location = new System.Drawing.Point(103, 430);
+            this.btn_back.Location = new System.Drawing.Point(7, 430);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(89, 23);
+            this.btn_back.Size = new System.Drawing.Size(281, 23);
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // shapeContainer1

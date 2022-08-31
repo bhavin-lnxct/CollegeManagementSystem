@@ -48,7 +48,8 @@ namespace CollegeManagementSystem.Components
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new Home_Form().Show();
         }
 
         private void lbl_back_Click(object sender, EventArgs e)

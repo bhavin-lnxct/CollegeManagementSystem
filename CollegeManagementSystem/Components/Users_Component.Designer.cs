@@ -406,7 +406,7 @@
             this.btn_back.FillColor = System.Drawing.Color.RoyalBlue;
             this.btn_back.Location = new System.Drawing.Point(103, 430);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(89, 23);
+            this.btn_back.Size = new System.Drawing.Size(281, 23);
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // shapeContainer1

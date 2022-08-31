@@ -48,7 +48,7 @@ namespace CollegeManagementSystem
             new Teachers_Component().Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void lbl_teachers_Click(object sender, EventArgs e)
         {
             btn_teachers_Click(sender, e);
         }
@@ -59,7 +59,7 @@ namespace CollegeManagementSystem
             new Users_Component().Show();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void lbl_users_Click(object sender, EventArgs e)
         {
             btn_users_Click(sender, e);
         }
@@ -70,7 +70,7 @@ namespace CollegeManagementSystem
             new Department_Component().Show();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void lbl_departments_Click(object sender, EventArgs e)
         {
             btn_departments_Click(sender, e);
         }
@@ -81,7 +81,7 @@ namespace CollegeManagementSystem
             new Fees_Component().Show();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void lbl_fees_Click(object sender, EventArgs e)
         {
             btn_fees_Click(sender, e);
         }
@@ -91,7 +91,7 @@ namespace CollegeManagementSystem
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void lbl_logout_Click(object sender, EventArgs e)
         {
             btn_logout_Click(sender, e);
         }
@@ -101,11 +101,9 @@ namespace CollegeManagementSystem
 
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void lbl_dashboard_Click(object sender, EventArgs e)
         {
             btn_dashboard_Click(sender, e);
         }
-
-        
     }
 }
