@@ -64,7 +64,7 @@ namespace CollegeManagementSystem
         }
 
         int click = 0;
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void show_hide_password_Click(object sender, EventArgs e)
         {
             if (click % 2 == 0)
             {
@@ -77,11 +77,6 @@ namespace CollegeManagementSystem
                 txtbox_password.UseSystemPasswordChar = true;
             }
             click++;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

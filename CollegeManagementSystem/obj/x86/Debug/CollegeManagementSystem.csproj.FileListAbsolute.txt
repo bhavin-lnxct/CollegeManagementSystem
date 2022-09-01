@@ -44,7 +44,6 @@ C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\Colle
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.pdb
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\bin\Debug\CollegeManagementSystem.exe
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\bin\Debug\CollegeManagementSystem.pdb
-C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.csprojResolveAssemblyReference.cache
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Loading_Form.resources
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Login_Form.resources
 C:\Bhavin\C#\CollegeManagementSystem\CollegeManagementSystem\obj\x86\Debug\CollegeManagementSystem.Registration_Form.resources

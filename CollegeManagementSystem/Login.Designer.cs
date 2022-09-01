@@ -89,7 +89,6 @@
             this.txtbox_email.Size = new System.Drawing.Size(259, 20);
             this.txtbox_email.TabIndex = 1;
             this.txtbox_email.Text = "email";
-            this.txtbox_email.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtbox_password
             // 
@@ -175,7 +174,7 @@
             this.show_hide_password.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.show_hide_password.TabIndex = 12;
             this.show_hide_password.TabStop = false;
-            this.show_hide_password.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.show_hide_password.Click += new System.EventHandler(this.show_hide_password_Click);
             // 
             // panel1
             // 
