@@ -36,14 +36,14 @@
             this.lbl_edit = new System.Windows.Forms.Label();
             this.lbl_add = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_amount = new System.Windows.Forms.TextBox();
             this.lbl_amount = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
             this.lbl_name = new System.Windows.Forms.Label();
-            this.dobPicker = new System.Windows.Forms.DateTimePicker();
+            this.period_picker = new System.Windows.Forms.DateTimePicker();
             this.lbl_period = new System.Windows.Forms.Label();
             this.lbl_std_id = new System.Windows.Forms.Label();
-            this.txtbox_email = new System.Windows.Forms.TextBox();
+            this.txt_num = new System.Windows.Forms.TextBox();
             this.lbl_heading = new System.Windows.Forms.Label();
             this.lbl_num = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -52,7 +52,7 @@
             this.btn_delete = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_back = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_std_id = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.arrow_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -158,16 +158,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(557, 298);
             this.dataGridView1.TabIndex = 67;
             // 
-            // textBox3
+            // txt_amount
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox3.Location = new System.Drawing.Point(94, 315);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 22);
-            this.textBox3.TabIndex = 56;
+            this.txt_amount.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_amount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_amount.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_amount.Location = new System.Drawing.Point(94, 315);
+            this.txt_amount.Name = "txt_amount";
+            this.txt_amount.Size = new System.Drawing.Size(195, 22);
+            this.txt_amount.TabIndex = 56;
             // 
             // lbl_amount
             // 
@@ -182,16 +182,16 @@
             this.lbl_amount.Text = "Amount :";
             this.lbl_amount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // txt_name
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(94, 276);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 53;
+            this.txt_name.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_name.Location = new System.Drawing.Point(94, 276);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(195, 22);
+            this.txt_name.TabIndex = 53;
             // 
             // lbl_name
             // 
@@ -206,16 +206,16 @@
             this.lbl_name.Text = "Name :";
             this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dobPicker
+            // period_picker
             // 
-            this.dobPicker.CalendarTitleBackColor = System.Drawing.Color.RoyalBlue;
-            this.dobPicker.Cursor = System.Windows.Forms.Cursors.Default;
-            this.dobPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dobPicker.Location = new System.Drawing.Point(94, 241);
-            this.dobPicker.Name = "dobPicker";
-            this.dobPicker.Size = new System.Drawing.Size(195, 20);
-            this.dobPicker.TabIndex = 52;
-            this.dobPicker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
+            this.period_picker.CalendarTitleBackColor = System.Drawing.Color.RoyalBlue;
+            this.period_picker.Cursor = System.Windows.Forms.Cursors.Default;
+            this.period_picker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.period_picker.Location = new System.Drawing.Point(94, 241);
+            this.period_picker.Name = "period_picker";
+            this.period_picker.Size = new System.Drawing.Size(195, 20);
+            this.period_picker.TabIndex = 52;
+            this.period_picker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
             // 
             // lbl_period
             // 
@@ -243,15 +243,15 @@
             this.lbl_std_id.Text = "Std ID :";
             this.lbl_std_id.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtbox_email
+            // txt_num
             // 
-            this.txtbox_email.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_email.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_email.Location = new System.Drawing.Point(94, 167);
-            this.txtbox_email.Name = "txtbox_email";
-            this.txtbox_email.Size = new System.Drawing.Size(195, 20);
-            this.txtbox_email.TabIndex = 47;
+            this.txt_num.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_num.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_num.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_num.Location = new System.Drawing.Point(94, 167);
+            this.txt_num.Name = "txt_num";
+            this.txt_num.Size = new System.Drawing.Size(195, 20);
+            this.txt_num.TabIndex = 47;
             // 
             // lbl_heading
             // 
@@ -346,21 +346,21 @@
             this.shapeContainer1.TabIndex = 70;
             this.shapeContainer1.TabStop = false;
             // 
-            // comboBox1
+            // cb_std_id
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 203);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(195, 21);
-            this.comboBox1.TabIndex = 71;
+            this.cb_std_id.BackColor = System.Drawing.SystemColors.Control;
+            this.cb_std_id.FormattingEnabled = true;
+            this.cb_std_id.Location = new System.Drawing.Point(94, 203);
+            this.cb_std_id.Name = "cb_std_id";
+            this.cb_std_id.Size = new System.Drawing.Size(195, 21);
+            this.cb_std_id.TabIndex = 71;
             // 
             // Fees_Component
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 467);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_std_id);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
@@ -368,14 +368,14 @@
             this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_amount);
             this.Controls.Add(this.lbl_amount);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_name);
             this.Controls.Add(this.lbl_name);
-            this.Controls.Add(this.dobPicker);
+            this.Controls.Add(this.period_picker);
             this.Controls.Add(this.lbl_period);
             this.Controls.Add(this.lbl_std_id);
-            this.Controls.Add(this.txtbox_email);
+            this.Controls.Add(this.txt_num);
             this.Controls.Add(this.lbl_num);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.shapeContainer1);
@@ -402,14 +402,14 @@
         private System.Windows.Forms.Label lbl_edit;
         private System.Windows.Forms.Label lbl_add;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_amount;
         private System.Windows.Forms.Label lbl_amount;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_name;
         private System.Windows.Forms.Label lbl_name;
-        private System.Windows.Forms.DateTimePicker dobPicker;
+        private System.Windows.Forms.DateTimePicker period_picker;
         private System.Windows.Forms.Label lbl_period;
         private System.Windows.Forms.Label lbl_std_id;
-        private System.Windows.Forms.TextBox txtbox_email;
+        private System.Windows.Forms.TextBox txt_num;
         private System.Windows.Forms.Label lbl_heading;
         private System.Windows.Forms.Label lbl_num;
         private System.Windows.Forms.Panel panel1;
@@ -418,6 +418,6 @@
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_delete;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_back;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_std_id;
     }
 }

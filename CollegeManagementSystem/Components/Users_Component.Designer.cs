@@ -36,12 +36,12 @@
             this.lbl_add = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbl_heading = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbl_phone = new System.Windows.Forms.Label();
+            this.txt_password = new System.Windows.Forms.TextBox();
+            this.lbl_password = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtbox_password = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
             this.lbl_name = new System.Windows.Forms.Label();
-            this.txtbox_id = new System.Windows.Forms.TextBox();
+            this.txt_id = new System.Windows.Forms.TextBox();
             this.lbl_id = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_add = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
@@ -61,9 +61,9 @@
             this.label7.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label7.Location = new System.Drawing.Point(480, 113);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(169, 31);
+            this.label7.Size = new System.Drawing.Size(122, 31);
             this.label7.TabIndex = 92;
-            this.label7.Text = "Payment List";
+            this.label7.Text = "User List";
             // 
             // arrow_back
             // 
@@ -154,51 +154,51 @@
             this.lbl_heading.TabIndex = 1;
             this.lbl_heading.Text = "College Management System";
             // 
-            // textBox1
+            // txt_password
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(94, 268);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 76;
+            this.txt_password.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_password.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_password.Location = new System.Drawing.Point(109, 268);
+            this.txt_password.Name = "txt_password";
+            this.txt_password.Size = new System.Drawing.Size(180, 22);
+            this.txt_password.TabIndex = 76;
             // 
-            // lbl_phone
+            // lbl_password
             // 
-            this.lbl_phone.AutoSize = true;
-            this.lbl_phone.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_phone.ForeColor = System.Drawing.Color.Black;
-            this.lbl_phone.Location = new System.Drawing.Point(9, 270);
-            this.lbl_phone.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_phone.Name = "lbl_phone";
-            this.lbl_phone.Size = new System.Drawing.Size(71, 18);
-            this.lbl_phone.TabIndex = 87;
-            this.lbl_phone.Text = "Phone :";
-            this.lbl_phone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_password.AutoSize = true;
+            this.lbl_password.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_password.ForeColor = System.Drawing.Color.Black;
+            this.lbl_password.Location = new System.Drawing.Point(9, 270);
+            this.lbl_password.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_password.Name = "lbl_password";
+            this.lbl_password.Size = new System.Drawing.Size(97, 18);
+            this.lbl_password.TabIndex = 87;
+            this.lbl_password.Text = "Password :";
+            this.lbl_password.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(370, 53);
+            this.label1.Location = new System.Drawing.Point(382, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 31);
+            this.label1.Size = new System.Drawing.Size(80, 31);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Account";
+            this.label1.Text = "Users";
             // 
-            // txtbox_password
+            // txt_name
             // 
-            this.txtbox_password.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_password.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_password.Location = new System.Drawing.Point(94, 229);
-            this.txtbox_password.Name = "txtbox_password";
-            this.txtbox_password.Size = new System.Drawing.Size(195, 22);
-            this.txtbox_password.TabIndex = 72;
+            this.txt_name.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_name.Location = new System.Drawing.Point(109, 229);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(180, 22);
+            this.txt_name.TabIndex = 72;
             // 
             // lbl_name
             // 
@@ -213,15 +213,15 @@
             this.lbl_name.Text = "Name :";
             this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtbox_id
+            // txt_id
             // 
-            this.txtbox_id.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_id.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_id.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_id.Location = new System.Drawing.Point(94, 194);
-            this.txtbox_id.Name = "txtbox_id";
-            this.txtbox_id.Size = new System.Drawing.Size(195, 20);
-            this.txtbox_id.TabIndex = 70;
+            this.txt_id.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_id.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_id.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_id.Location = new System.Drawing.Point(109, 194);
+            this.txt_id.Name = "txt_id";
+            this.txt_id.Size = new System.Drawing.Size(180, 20);
+            this.txt_id.TabIndex = 70;
             // 
             // lbl_id
             // 
@@ -317,11 +317,11 @@
             this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lbl_phone);
-            this.Controls.Add(this.txtbox_password);
+            this.Controls.Add(this.txt_password);
+            this.Controls.Add(this.lbl_password);
+            this.Controls.Add(this.txt_name);
             this.Controls.Add(this.lbl_name);
-            this.Controls.Add(this.txtbox_id);
+            this.Controls.Add(this.txt_id);
             this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.shapeContainer1);
@@ -348,12 +348,12 @@
         private System.Windows.Forms.Label lbl_add;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lbl_heading;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lbl_phone;
+        private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtbox_password;
+        private System.Windows.Forms.TextBox txt_name;
         private System.Windows.Forms.Label lbl_name;
-        private System.Windows.Forms.TextBox txtbox_id;
+        private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.Label lbl_id;
         private System.Windows.Forms.Panel panel1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_add;

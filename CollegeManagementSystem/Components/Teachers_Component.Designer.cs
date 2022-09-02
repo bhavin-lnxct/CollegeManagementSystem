@@ -34,23 +34,23 @@
             this.lbl_delete = new System.Windows.Forms.Label();
             this.lbl_edit = new System.Windows.Forms.Label();
             this.lbl_add = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_fees = new System.Windows.Forms.TextBox();
             this.lbl_heading = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dobPicker = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_fees = new System.Windows.Forms.Label();
+            this.txt_dept = new System.Windows.Forms.TextBox();
+            this.lbl_dept = new System.Windows.Forms.Label();
+            this.txt_phone = new System.Windows.Forms.TextBox();
+            this.lbl_phone = new System.Windows.Forms.Label();
+            this.dob_picker = new System.Windows.Forms.DateTimePicker();
+            this.lbl_dob = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtbox_password = new System.Windows.Forms.TextBox();
-            this.lbl_password = new System.Windows.Forms.Label();
-            this.txtbox_email = new System.Windows.Forms.TextBox();
-            this.lbl_email = new System.Windows.Forms.Label();
+            this.rd_female = new System.Windows.Forms.RadioButton();
+            this.rd_male = new System.Windows.Forms.RadioButton();
+            this.lbl_gender = new System.Windows.Forms.Label();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.lbl_name = new System.Windows.Forms.Label();
+            this.txt_id = new System.Windows.Forms.TextBox();
+            this.lbl_id = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_back = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_edit = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
@@ -139,16 +139,16 @@
             this.lbl_add.Text = "Add";
             this.lbl_add.Click += new System.EventHandler(this.lbl_add_Click);
             // 
-            // textBox3
+            // txt_fees
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox3.Location = new System.Drawing.Point(94, 331);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 22);
-            this.textBox3.TabIndex = 33;
+            this.txt_fees.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_fees.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_fees.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fees.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_fees.Location = new System.Drawing.Point(94, 331);
+            this.txt_fees.Name = "txt_fees";
+            this.txt_fees.Size = new System.Drawing.Size(195, 22);
+            this.txt_fees.TabIndex = 33;
             // 
             // lbl_heading
             // 
@@ -161,90 +161,90 @@
             this.lbl_heading.TabIndex = 1;
             this.lbl_heading.Text = "College Management System";
             // 
-            // label6
+            // lbl_fees
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(9, 333);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 18);
-            this.label6.TabIndex = 43;
-            this.label6.Text = "Fees :";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_fees.AutoSize = true;
+            this.lbl_fees.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fees.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fees.Location = new System.Drawing.Point(9, 333);
+            this.lbl_fees.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_fees.Name = "lbl_fees";
+            this.lbl_fees.Size = new System.Drawing.Size(57, 18);
+            this.lbl_fees.TabIndex = 43;
+            this.lbl_fees.Text = "Fees :";
+            this.lbl_fees.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // txt_dept
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox2.Location = new System.Drawing.Point(94, 296);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 22);
-            this.textBox2.TabIndex = 32;
+            this.txt_dept.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_dept.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_dept.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_dept.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_dept.Location = new System.Drawing.Point(94, 296);
+            this.txt_dept.Name = "txt_dept";
+            this.txt_dept.Size = new System.Drawing.Size(195, 22);
+            this.txt_dept.TabIndex = 32;
             // 
-            // label5
+            // lbl_dept
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(9, 298);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 18);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "Deptmt :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_dept.AutoSize = true;
+            this.lbl_dept.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dept.ForeColor = System.Drawing.Color.Black;
+            this.lbl_dept.Location = new System.Drawing.Point(9, 298);
+            this.lbl_dept.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_dept.Name = "lbl_dept";
+            this.lbl_dept.Size = new System.Drawing.Size(82, 18);
+            this.lbl_dept.TabIndex = 42;
+            this.lbl_dept.Text = "Deptmt :";
+            this.lbl_dept.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // txt_phone
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(94, 261);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 30;
+            this.txt_phone.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_phone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_phone.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_phone.Location = new System.Drawing.Point(94, 261);
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(195, 22);
+            this.txt_phone.TabIndex = 30;
             // 
-            // label4
+            // lbl_phone
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(9, 263);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 18);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "Phone :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_phone.AutoSize = true;
+            this.lbl_phone.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_phone.ForeColor = System.Drawing.Color.Black;
+            this.lbl_phone.Location = new System.Drawing.Point(9, 263);
+            this.lbl_phone.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_phone.Name = "lbl_phone";
+            this.lbl_phone.Size = new System.Drawing.Size(71, 18);
+            this.lbl_phone.TabIndex = 41;
+            this.lbl_phone.Text = "Phone :";
+            this.lbl_phone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dobPicker
+            // dob_picker
             // 
-            this.dobPicker.CalendarTitleBackColor = System.Drawing.Color.RoyalBlue;
-            this.dobPicker.Cursor = System.Windows.Forms.Cursors.Default;
-            this.dobPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dobPicker.Location = new System.Drawing.Point(94, 226);
-            this.dobPicker.Name = "dobPicker";
-            this.dobPicker.Size = new System.Drawing.Size(195, 20);
-            this.dobPicker.TabIndex = 29;
-            this.dobPicker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
+            this.dob_picker.CalendarTitleBackColor = System.Drawing.Color.RoyalBlue;
+            this.dob_picker.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dob_picker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dob_picker.Location = new System.Drawing.Point(94, 226);
+            this.dob_picker.Name = "dob_picker";
+            this.dob_picker.Size = new System.Drawing.Size(195, 20);
+            this.dob_picker.TabIndex = 29;
+            this.dob_picker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
             // 
-            // label3
+            // lbl_dob
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(9, 227);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 18);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "DOB :";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_dob.AutoSize = true;
+            this.lbl_dob.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dob.ForeColor = System.Drawing.Color.Black;
+            this.lbl_dob.Location = new System.Drawing.Point(9, 227);
+            this.lbl_dob.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_dob.Name = "lbl_dob";
+            this.lbl_dob.Size = new System.Drawing.Size(55, 18);
+            this.lbl_dob.TabIndex = 40;
+            this.lbl_dob.Text = "DOB :";
+            this.lbl_dob.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -257,89 +257,89 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Teachers";
             // 
-            // radioButton2
+            // rd_female
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(148, 191);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(65, 17);
-            this.radioButton2.TabIndex = 28;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rd_female.AutoSize = true;
+            this.rd_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rd_female.Location = new System.Drawing.Point(148, 191);
+            this.rd_female.Name = "rd_female";
+            this.rd_female.Size = new System.Drawing.Size(65, 17);
+            this.rd_female.TabIndex = 28;
+            this.rd_female.TabStop = true;
+            this.rd_female.Text = "Female";
+            this.rd_female.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rd_male
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(94, 191);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 17);
-            this.radioButton1.TabIndex = 27;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rd_male.AutoSize = true;
+            this.rd_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rd_male.Location = new System.Drawing.Point(94, 191);
+            this.rd_male.Name = "rd_male";
+            this.rd_male.Size = new System.Drawing.Size(52, 17);
+            this.rd_male.TabIndex = 27;
+            this.rd_male.TabStop = true;
+            this.rd_male.Text = "Male";
+            this.rd_male.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // lbl_gender
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(9, 191);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 18);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "Gender :";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gender.ForeColor = System.Drawing.Color.Black;
+            this.lbl_gender.Location = new System.Drawing.Point(9, 191);
+            this.lbl_gender.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(80, 18);
+            this.lbl_gender.TabIndex = 36;
+            this.lbl_gender.Text = "Gender :";
+            this.lbl_gender.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtbox_password
+            // txt_name
             // 
-            this.txtbox_password.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_password.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_password.Location = new System.Drawing.Point(94, 156);
-            this.txtbox_password.Name = "txtbox_password";
-            this.txtbox_password.Size = new System.Drawing.Size(195, 22);
-            this.txtbox_password.TabIndex = 26;
+            this.txt_name.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_name.Location = new System.Drawing.Point(94, 156);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(195, 22);
+            this.txt_name.TabIndex = 26;
             // 
-            // lbl_password
+            // lbl_name
             // 
-            this.lbl_password.AutoSize = true;
-            this.lbl_password.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_password.ForeColor = System.Drawing.Color.Black;
-            this.lbl_password.Location = new System.Drawing.Point(9, 158);
-            this.lbl_password.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(66, 18);
-            this.lbl_password.TabIndex = 34;
-            this.lbl_password.Text = "Name :";
-            this.lbl_password.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.Color.Black;
+            this.lbl_name.Location = new System.Drawing.Point(9, 158);
+            this.lbl_name.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(66, 18);
+            this.lbl_name.TabIndex = 34;
+            this.lbl_name.Text = "Name :";
+            this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtbox_email
+            // txt_id
             // 
-            this.txtbox_email.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_email.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_email.Location = new System.Drawing.Point(94, 121);
-            this.txtbox_email.Name = "txtbox_email";
-            this.txtbox_email.Size = new System.Drawing.Size(195, 20);
-            this.txtbox_email.TabIndex = 24;
+            this.txt_id.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_id.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_id.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_id.Location = new System.Drawing.Point(94, 121);
+            this.txt_id.Name = "txt_id";
+            this.txt_id.Size = new System.Drawing.Size(195, 20);
+            this.txt_id.TabIndex = 24;
             // 
-            // lbl_email
+            // lbl_id
             // 
-            this.lbl_email.AutoSize = true;
-            this.lbl_email.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_email.ForeColor = System.Drawing.Color.Black;
-            this.lbl_email.Location = new System.Drawing.Point(9, 123);
-            this.lbl_email.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(37, 18);
-            this.lbl_email.TabIndex = 31;
-            this.lbl_email.Text = "ID :";
-            this.lbl_email.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_id.AutoSize = true;
+            this.lbl_id.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.ForeColor = System.Drawing.Color.Black;
+            this.lbl_id.Location = new System.Drawing.Point(9, 123);
+            this.lbl_id.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_id.Name = "lbl_id";
+            this.lbl_id.Size = new System.Drawing.Size(37, 18);
+            this.lbl_id.TabIndex = 31;
+            this.lbl_id.Text = "ID :";
+            this.lbl_id.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
@@ -435,21 +435,21 @@
             this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.dobPicker);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtbox_password);
-            this.Controls.Add(this.lbl_password);
-            this.Controls.Add(this.txtbox_email);
-            this.Controls.Add(this.lbl_email);
+            this.Controls.Add(this.txt_fees);
+            this.Controls.Add(this.lbl_fees);
+            this.Controls.Add(this.txt_dept);
+            this.Controls.Add(this.lbl_dept);
+            this.Controls.Add(this.txt_phone);
+            this.Controls.Add(this.lbl_phone);
+            this.Controls.Add(this.dob_picker);
+            this.Controls.Add(this.lbl_dob);
+            this.Controls.Add(this.rd_female);
+            this.Controls.Add(this.rd_male);
+            this.Controls.Add(this.lbl_gender);
+            this.Controls.Add(this.txt_name);
+            this.Controls.Add(this.lbl_name);
+            this.Controls.Add(this.txt_id);
+            this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -473,23 +473,23 @@
         private System.Windows.Forms.Label lbl_delete;
         private System.Windows.Forms.Label lbl_edit;
         private System.Windows.Forms.Label lbl_add;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_fees;
         private System.Windows.Forms.Label lbl_heading;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dobPicker;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_fees;
+        private System.Windows.Forms.TextBox txt_dept;
+        private System.Windows.Forms.Label lbl_dept;
+        private System.Windows.Forms.TextBox txt_phone;
+        private System.Windows.Forms.Label lbl_phone;
+        private System.Windows.Forms.DateTimePicker dob_picker;
+        private System.Windows.Forms.Label lbl_dob;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtbox_password;
-        private System.Windows.Forms.Label lbl_password;
-        private System.Windows.Forms.TextBox txtbox_email;
-        private System.Windows.Forms.Label lbl_email;
+        private System.Windows.Forms.RadioButton rd_female;
+        private System.Windows.Forms.RadioButton rd_male;
+        private System.Windows.Forms.Label lbl_gender;
+        private System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.Label lbl_name;
+        private System.Windows.Forms.TextBox txt_id;
+        private System.Windows.Forms.Label lbl_id;
         private System.Windows.Forms.Panel panel1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_back;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_edit;

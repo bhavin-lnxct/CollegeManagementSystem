@@ -18,7 +18,11 @@ namespace CollegeManagementSystem.Components
 
         private void btn_add_Click(object sender, EventArgs e)
         {
+            try {
 
+            } catch () {
+
+            }
         }
 
         private void lbl_add_Click(object sender, EventArgs e)

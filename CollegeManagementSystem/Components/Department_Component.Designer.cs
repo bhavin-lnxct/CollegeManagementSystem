@@ -36,28 +36,19 @@
             this.lbl_add = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbl_heading = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dobPicker = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtbox_password = new System.Windows.Forms.TextBox();
-            this.lbl_password = new System.Windows.Forms.Label();
-            this.txtbox_email = new System.Windows.Forms.TextBox();
-            this.lbl_email = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_add = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_edit = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_delete = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.btn_back = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.txt_dept = new System.Windows.Forms.TextBox();
+            this.lbl_dept = new System.Windows.Forms.Label();
+            this.txt_description = new System.Windows.Forms.TextBox();
+            this.lbl_description = new System.Windows.Forms.Label();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.lbl_name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.arrow_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -163,196 +154,16 @@
             this.lbl_heading.TabIndex = 1;
             this.lbl_heading.Text = "College Management System";
             // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox3.Location = new System.Drawing.Point(94, 331);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 22);
-            this.textBox3.TabIndex = 79;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(9, 333);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 18);
-            this.label6.TabIndex = 89;
-            this.label6.Text = "Fees :";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox2.Location = new System.Drawing.Point(94, 296);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 22);
-            this.textBox2.TabIndex = 78;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(9, 298);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 18);
-            this.label5.TabIndex = 88;
-            this.label5.Text = "Deptmt :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(94, 261);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 76;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(9, 263);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 18);
-            this.label4.TabIndex = 87;
-            this.label4.Text = "Phone :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dobPicker
-            // 
-            this.dobPicker.CalendarTitleBackColor = System.Drawing.Color.RoyalBlue;
-            this.dobPicker.Cursor = System.Windows.Forms.Cursors.Default;
-            this.dobPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dobPicker.Location = new System.Drawing.Point(94, 226);
-            this.dobPicker.Name = "dobPicker";
-            this.dobPicker.Size = new System.Drawing.Size(195, 20);
-            this.dobPicker.TabIndex = 75;
-            this.dobPicker.Value = new System.DateTime(2022, 8, 24, 0, 0, 0, 0);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(9, 227);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 18);
-            this.label3.TabIndex = 86;
-            this.label3.Text = "DOB :";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(370, 53);
+            this.label1.Location = new System.Drawing.Point(350, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 31);
+            this.label1.Size = new System.Drawing.Size(165, 31);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Account";
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(148, 191);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(65, 17);
-            this.radioButton2.TabIndex = 74;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(94, 191);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 17);
-            this.radioButton1.TabIndex = 73;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(9, 191);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 18);
-            this.label2.TabIndex = 82;
-            this.label2.Text = "Gender :";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtbox_password
-            // 
-            this.txtbox_password.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_password.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_password.Location = new System.Drawing.Point(94, 156);
-            this.txtbox_password.Name = "txtbox_password";
-            this.txtbox_password.Size = new System.Drawing.Size(195, 22);
-            this.txtbox_password.TabIndex = 72;
-            // 
-            // lbl_password
-            // 
-            this.lbl_password.AutoSize = true;
-            this.lbl_password.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_password.ForeColor = System.Drawing.Color.Black;
-            this.lbl_password.Location = new System.Drawing.Point(9, 158);
-            this.lbl_password.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(66, 18);
-            this.lbl_password.TabIndex = 80;
-            this.lbl_password.Text = "Name :";
-            this.lbl_password.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtbox_email
-            // 
-            this.txtbox_email.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbox_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbox_email.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtbox_email.Location = new System.Drawing.Point(94, 121);
-            this.txtbox_email.Name = "txtbox_email";
-            this.txtbox_email.Size = new System.Drawing.Size(195, 20);
-            this.txtbox_email.TabIndex = 70;
-            // 
-            // lbl_email
-            // 
-            this.lbl_email.AutoSize = true;
-            this.lbl_email.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_email.ForeColor = System.Drawing.Color.Black;
-            this.lbl_email.Location = new System.Drawing.Point(9, 123);
-            this.lbl_email.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(37, 18);
-            this.lbl_email.TabIndex = 77;
-            this.lbl_email.Text = "ID :";
-            this.lbl_email.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Text = "Departments";
             // 
             // panel1
             // 
@@ -423,11 +234,88 @@
             this.shapeContainer1.TabIndex = 93;
             this.shapeContainer1.TabStop = false;
             // 
+            // txt_dept
+            // 
+            this.txt_dept.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_dept.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_dept.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_dept.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_dept.Location = new System.Drawing.Point(127, 268);
+            this.txt_dept.Name = "txt_dept";
+            this.txt_dept.Size = new System.Drawing.Size(162, 22);
+            this.txt_dept.TabIndex = 96;
+            // 
+            // lbl_dept
+            // 
+            this.lbl_dept.AutoSize = true;
+            this.lbl_dept.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dept.ForeColor = System.Drawing.Color.Black;
+            this.lbl_dept.Location = new System.Drawing.Point(9, 270);
+            this.lbl_dept.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_dept.Name = "lbl_dept";
+            this.lbl_dept.Size = new System.Drawing.Size(60, 18);
+            this.lbl_dept.TabIndex = 99;
+            this.lbl_dept.Text = "Dept :";
+            this.lbl_dept.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txt_description
+            // 
+            this.txt_description.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_description.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_description.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_description.Location = new System.Drawing.Point(127, 229);
+            this.txt_description.Name = "txt_description";
+            this.txt_description.Size = new System.Drawing.Size(162, 22);
+            this.txt_description.TabIndex = 95;
+            // 
+            // lbl_description
+            // 
+            this.lbl_description.AutoSize = true;
+            this.lbl_description.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_description.ForeColor = System.Drawing.Color.Black;
+            this.lbl_description.Location = new System.Drawing.Point(9, 231);
+            this.lbl_description.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_description.Name = "lbl_description";
+            this.lbl_description.Size = new System.Drawing.Size(115, 18);
+            this.lbl_description.TabIndex = 98;
+            this.lbl_description.Text = "Description :";
+            this.lbl_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txt_name
+            // 
+            this.txt_name.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_name.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_name.Location = new System.Drawing.Point(127, 194);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(162, 20);
+            this.txt_name.TabIndex = 94;
+            // 
+            // lbl_name
+            // 
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.Color.Black;
+            this.lbl_name.Location = new System.Drawing.Point(9, 196);
+            this.lbl_name.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(66, 18);
+            this.lbl_name.TabIndex = 97;
+            this.lbl_name.Text = "Name :";
+            this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Department_Component
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 467);
+            this.Controls.Add(this.txt_dept);
+            this.Controls.Add(this.lbl_dept);
+            this.Controls.Add(this.txt_description);
+            this.Controls.Add(this.lbl_description);
+            this.Controls.Add(this.txt_name);
+            this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.arrow_back);
             this.Controls.Add(this.lbl_back);
@@ -435,21 +323,6 @@
             this.Controls.Add(this.lbl_edit);
             this.Controls.Add(this.lbl_add);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.dobPicker);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtbox_password);
-            this.Controls.Add(this.lbl_password);
-            this.Controls.Add(this.txtbox_email);
-            this.Controls.Add(this.lbl_email);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -475,27 +348,18 @@
         private System.Windows.Forms.Label lbl_add;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lbl_heading;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dobPicker;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtbox_password;
-        private System.Windows.Forms.Label lbl_password;
-        private System.Windows.Forms.TextBox txtbox_email;
-        private System.Windows.Forms.Label lbl_email;
         private System.Windows.Forms.Panel panel1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_add;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_edit;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_delete;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape btn_back;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
+        private System.Windows.Forms.TextBox txt_dept;
+        private System.Windows.Forms.Label lbl_dept;
+        private System.Windows.Forms.TextBox txt_description;
+        private System.Windows.Forms.Label lbl_description;
+        private System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.Label lbl_name;
     }
 }
