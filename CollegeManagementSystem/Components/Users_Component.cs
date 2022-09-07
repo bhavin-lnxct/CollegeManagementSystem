@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace CollegeManagementSystem.Components
 {
@@ -18,9 +20,15 @@ namespace CollegeManagementSystem.Components
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            try {
-
-            } catch () {
+            try
+            {
+                if(txt_id.Text == "" || txt_name.Text == "" || txt_password.Text == "")
+                {
+                    SqlDataAdapter da = new SqlDataAdapter("insert into Login values", Conn.cn);
+                }
+            }
+            catch
+            {
 
             }
         }
