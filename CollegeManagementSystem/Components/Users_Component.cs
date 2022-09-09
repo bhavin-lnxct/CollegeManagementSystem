@@ -22,9 +22,11 @@ namespace CollegeManagementSystem.Components
         {
             try
             {
-                if(txt_id.Text == "" || txt_name.Text == "" || txt_password.Text == "")
+                if(txt_id.Text != "" || txt_email.Text != "" || txt_password.Text != "")
                 {
-                    SqlDataAdapter da = new SqlDataAdapter("insert into Login values", Conn.cn);
+                    SqlDataAdapter da = new SqlDataAdapter("insert into Login values('" + txt_id.Text + "', '" + txt_email.Text + "', '" + txt_password.Text + "')", Conn.cn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
                 }
             }
             catch

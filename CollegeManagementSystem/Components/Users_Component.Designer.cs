@@ -39,8 +39,8 @@
             this.txt_password = new System.Windows.Forms.TextBox();
             this.lbl_password = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_name = new System.Windows.Forms.TextBox();
-            this.lbl_name = new System.Windows.Forms.Label();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.lbl_email = new System.Windows.Forms.Label();
             this.txt_id = new System.Windows.Forms.TextBox();
             this.lbl_id = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -189,29 +189,29 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Users";
             // 
-            // txt_name
+            // txt_email
             // 
-            this.txt_name.BackColor = System.Drawing.SystemColors.Control;
-            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_name.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txt_name.Location = new System.Drawing.Point(109, 229);
-            this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(180, 22);
-            this.txt_name.TabIndex = 72;
+            this.txt_email.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_email.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txt_email.Location = new System.Drawing.Point(109, 229);
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(180, 22);
+            this.txt_email.TabIndex = 72;
             // 
-            // lbl_name
+            // lbl_email
             // 
-            this.lbl_name.AutoSize = true;
-            this.lbl_name.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.ForeColor = System.Drawing.Color.Black;
-            this.lbl_name.Location = new System.Drawing.Point(9, 231);
-            this.lbl_name.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(66, 18);
-            this.lbl_name.TabIndex = 80;
-            this.lbl_name.Text = "Name :";
-            this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_email.AutoSize = true;
+            this.lbl_email.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_email.ForeColor = System.Drawing.Color.Black;
+            this.lbl_email.Location = new System.Drawing.Point(9, 231);
+            this.lbl_email.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl_email.Name = "lbl_email";
+            this.lbl_email.Size = new System.Drawing.Size(63, 18);
+            this.lbl_email.TabIndex = 80;
+            this.lbl_email.Text = "Email :";
+            this.lbl_email.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txt_id
             // 
@@ -319,8 +319,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.lbl_password);
-            this.Controls.Add(this.txt_name);
-            this.Controls.Add(this.lbl_name);
+            this.Controls.Add(this.txt_email);
+            this.Controls.Add(this.lbl_email);
             this.Controls.Add(this.txt_id);
             this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.panel1);
@@ -351,8 +351,8 @@
         private System.Windows.Forms.TextBox txt_password;
         private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_name;
-        private System.Windows.Forms.Label lbl_name;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.Label lbl_email;
         private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.Label lbl_id;
         private System.Windows.Forms.Panel panel1;
