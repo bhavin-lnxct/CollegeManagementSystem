@@ -17,17 +17,18 @@ namespace CollegeManagementSystem.Components
         {
             InitializeComponent();
         }
-        
-        private void Form5_Load(object sender, EventArgs e)
+
+        private void Users_Component_Load(object sender, EventArgs e)
         {
             getData();
         }
         
         public void getData()
         {
-            SqlDataAdapter adapt = new SqlDataAdapter("select email from Login", Conn.cn);
+            SqlDataAdapter adapt = new SqlDataAdapter("select * from Login", Conn.cn);
             DataTable dtTbl = new DataTable();
             adapt.Fill(dtTbl);
+            dataGridView1.DataSource = dtTbl;            
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -49,6 +50,7 @@ namespace CollegeManagementSystem.Components
                         if (b == 0)
                         {
                             MessageBox.Show("User added successfully");
+                            getData();
                         }
                         else
                         {
@@ -90,17 +92,18 @@ namespace CollegeManagementSystem.Components
                 {
                     SqlDataAdapter das = new SqlDataAdapter("delete from Login where email='" + txt_email.Text + "'", Conn.cn);
                     DataTable dts = new DataTable();
-                    // int a = das.Fill(dts);
+                    int b = das.Fill(dts);
                     // if(a > 0)
                     //     MessageBox.Show("User deleted successfully");
                     // else
                     // {
                     //     MessageBox.Show("User cannot be deleted");
                     // }
+                    getData();
                 }
                 else
                 {
-                    MessageBox.Show("Please fill up the data");
+                    MessageBox.Show("Please enter the id");
                 }
             }
             catch
@@ -128,6 +131,23 @@ namespace CollegeManagementSystem.Components
         private void arrow_back_Click(object sender, EventArgs e)
         {
             btn_back_Click(sender, e);
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+                Application.Exit();
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void Users_Component_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_id.Text = dataGridView1.cell
         }
         
         // cell_ClickO()
